@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MoottoriNostaRahaa</class>
+ <widget class="QDialog" name="MoottoriNostaRahaa">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>770</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>Palaa</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="onetwenty">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>500</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>120</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eighty">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>380</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>80</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="muuSumma">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>620</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>Syötä määrä</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="twenty">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>380</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>20</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fourty">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>500</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>40</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sixty">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>620</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>60</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>200</y>
+     <width>611</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Syötä nostettava määrä</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

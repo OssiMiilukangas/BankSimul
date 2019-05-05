@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenuMoottori</class>
+ <widget class="QDialog" name="MainMenuMoottori">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>50</y>
+     <width>281</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>34</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Päävalikko</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1430</x>
+     <y>120</y>
+     <width>331</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>Kirjaudu ulos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nostaRahaaButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>820</y>
+     <width>341</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>Nosta rahaa</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TilitiedotBitton">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>820</y>
+     <width>341</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>Tilitapahtumat</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LahjoitaRahaaButton">
+   <property name="geometry">
+    <rect>
+     <x>1520</x>
+     <y>820</y>
+     <width>341</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>Lahjoita rahaa</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>320</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Saldo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="saldoLabel">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>320</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>*******</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>90</y>
+     <width>461</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nostaRahaaButton_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>820</y>
+     <width>341</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(201, 255, 245);</string>
+   </property>
+   <property name="text">
+    <string>Näytä saldo</string>
+   </property>
+  </widget>
+  <zorder>pushButton</zorder>
+  <zorder>label</zorder>
+  <zorder>nostaRahaaButton</zorder>
+  <zorder>TilitiedotBitton</zorder>
+  <zorder>LahjoitaRahaaButton</zorder>
+  <zorder>label_2</zorder>
+  <zorder>saldoLabel</zorder>
+  <zorder>label_3</zorder>
+  <zorder>nostaRahaaButton_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
