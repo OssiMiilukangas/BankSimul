@@ -1,6 +1,6 @@
 # BankSimul
 school project
 
-requires local MySQL server and RFID reader to work
+utilizes MySQL server and RFID reader.
 
 made by Ossi Miilukangas, Janne Heikkinen, Saku Jämsä
